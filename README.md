@@ -2,10 +2,21 @@
 
 ## Introduction
 
-Arachne is an Internet suite for DOS, consisting of a
-graphical web browser, email client, dialer and some
-other components. It was released first in 1996 for DOS,
-with Linux beta support added in 2001.
+This is the new home of the Arachne Elks fork.
+expect no progress here for at least a month or so. As i am working on my bios project.
+
+
+I plan to drop video modes not supported by elks.
+
+Will keep in vga as there is 8bit vga cards out there. 
+
+Initial port of this code will not use ems until. 
+
+When ems shows up in official elks tree, I plan on adding in ems to this port
+
+expect all other targets to be removed from this port.
+
+
 
 The Arachne core source code has been released as
 open source (GPLv2) with version 1.73 in 2003.
@@ -16,19 +27,6 @@ See lopif/copying.txt.
 
 ## Installation
 
-### DOS
-
-You will need a copy of Borland C++ 3.1 to build the source code.
-Cross-compilation is not supported, but DOSBox can be used.
-
-Download and install the [Arachne v1.99;GPL](https://www.glennmcc.org/arachne/a199gpl.zip)
-DOS package. Earlier versions may also work.
-Installation is straight-forward, just follow the installer instructions.
-
-Open the CORE.PRJ (386+), CORE-086.PRJ (PC/XT) or
-CORE-!87.PRJ (no FPU) project file and select
-"Compile > Build all". After compilation is finished,
-replace CORE.EXE with the new version.
 
 ### Linux / BSD
 
